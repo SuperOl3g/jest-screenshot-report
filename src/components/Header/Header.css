@@ -2,7 +2,6 @@
     padding: 22px 0;
     background-color: rgb(243, 246, 248);
     box-shadow: rgb(221, 223, 224) 0px -1px 0px 0px inset;
-    margin-bottom: 30px;
 }
 
 .rightPart {
@@ -18,15 +17,32 @@
     padding: 7px 12px;
     border-radius: 8px;
     background: #7f8389;
-    display: inline-flex;
     color: white;
-    justify-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: all .2s ease;
 
     &_passed {
         background: #5cb85c;
+
+        &:hover,
+        &:focus {
+            background: #54A754;
+        }
     }
 
     &_failed {
         background: #d9534f;
+
+        &:hover,
+        &:focus {
+            background: #c5534f;
+        }
+    }
+
+    &_disabled {
+        opacity: .45;
     }
 }

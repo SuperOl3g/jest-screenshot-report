@@ -1,19 +1,23 @@
 import React, { PureComponent } from 'react';
 import cn from 'classnames';
 
-import Container from '../Container/Container';
+import { FILTERS } from '../App/App';
 
 import styles from './List.css';
 
-const Result = ({ ancestorTitles, title, status, duration }) => <tr className={styles.tr}>
-    <td className={cn(styles.td, styles.td_status)}>{status === 'passed' ? '✅' : '❌'}</td>
-    <td className={styles.td}>{ancestorTitles.join(' / ') + ' / ' + title}</td>
-    <td className={styles.td}>{duration}ms</td>
-</tr>;
+const Result = ({ ancestorTitles, title, status, duration, filter }) => {
+    const isPassed = status === 'passed';
+
+    return (filter === FILTERS.ALL || filter === (isPassed ? FILTERS.PASSED : FILTERS.FAILED)) &&
+        <tr className={styles.tr}>
+            <td className={cn(styles.td, styles.td_status)}>{isPassed ? '✅' : '❌'}</td>
+            <td className={styles.td}>{ancestorTitles.join(' / ') + ' / ' + title}</td>
+            <td className={styles.td}>{duration}ms</td>
+        </tr>;
+};
 
 
-const List = ({ testResults }) => testResults ?
-    <Container>
+const List = ({ testResults, filter }) => testResults ?
         <table className={styles.table}>
             <thead>
                 <tr className={styles.tr}>
@@ -25,12 +29,15 @@ const List = ({ testResults }) => testResults ?
             <tbody>
                 {testResults.map((result, i) =>
                     result.testResults.map((result, j) =>
-                        <Result {...result} key={`${i}_${j}`} />
+                        <Result
+                            {...result}
+                            key={`${i}_${j}`}
+                            filter={filter}
+                        />
                     )
                 )}
             </tbody>
-        </table>
-    </Container> :
+        </table> :
     null;
 
 

@@ -4,11 +4,13 @@ import { pathOr } from 'ramda';
 import moment from 'moment';
 
 import Container from '../Container/Container';
+import { FILTERS } from '../App/App';
 
 import styles from './Header.css';
 
+const noop = () => {};
 
-const Header = ({ results }) => {
+const Header = ({ results, filter, onPassedButtonClick, onFailedButtonClick }) => {
     if (!results) {
         return null;
     }
@@ -27,31 +29,40 @@ const Header = ({ results }) => {
             <div className={styles.rightPart}>
                 <div className={styles.badgeBlock}>
                     Passed:
-                    <div
-                        className={classNames(
-                            styles.badge,
-                            styles.badge_passed
-                        )}
+                    <button
+                        className={classNames({
+                            [styles.badge]: true,
+                            [styles.badge_passed]: true,
+                            [styles.badge_disabled]: filter === FILTERS.FAILED || filter === FILTERS.NONE
+                        })}
+                        onClick={onPassedButtonClick}
                     >
                         {numPassedTests}
-                    </div>
+                    </button>
                 </div>
 
                 <div className={styles.badgeBlock}>
                     Failed:
-                    <div
-                        className={classNames(
-                            styles.badge,
-                            styles.badge_failed
-                        )}
+                    <button
+                        className={classNames({
+                            [styles.badge]: true,
+                            [styles.badge_failed]: true,
+                            [styles.badge_disabled]: filter === FILTERS.PASSED || filter === FILTERS.NONE
+                        })}
+                        onClick={onFailedButtonClick}
                     >
                         {numFailedTests}
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
     </Container>
 </header>};
 
+
+Header.defaultProps = {
+    onPassedButtonClick: noop,
+    onFailedButtonClick: noop
+};
 
 export default Header;
