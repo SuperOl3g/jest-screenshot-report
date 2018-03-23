@@ -1,0 +1,23 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.th {
+    opacity: .6;
+}
+
+.tr {
+    &:nth-child(even) {
+        background: rgba(0, 0, 0, .03);
+    }
+}
+
+.td, .th {
+    padding: 7px;
+}
+
+.td_status {
+    padding-left: 23px;
+}

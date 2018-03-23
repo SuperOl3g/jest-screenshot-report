@@ -1,0 +1,10 @@
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+.app {
+    margin-bottom: 80px;
+}

@@ -1,0 +1,32 @@
+.header {
+    padding: 22px 0;
+    background-color: rgb(243, 246, 248);
+    box-shadow: rgb(221, 223, 224) 0px -1px 0px 0px inset;
+    margin-bottom: 30px;
+}
+
+.rightPart {
+    display: flex;
+}
+
+.badgeBlock:not(:last-child) {
+    margin-right: 20px;
+}
+
+.badge {
+    margin-left: 4px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    background: #7f8389;
+    display: inline-flex;
+    color: white;
+    justify-content: center;
+
+    &_passed {
+        background: #5cb85c;
+    }
+
+    &_failed {
+        background: #d9534f;
+    }
+}
