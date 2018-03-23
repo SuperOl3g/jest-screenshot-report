@@ -22,8 +22,8 @@ class App extends PureComponent {
         const { results } = this.state;
 
         return <div className={styles.app}>
-            <Header {...results} />
-            <List {...results} />
+            <Header results={results} />
+            <List testResults={results && results.testResults} />
         </div>;
     }
 

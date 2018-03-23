@@ -17,9 +17,9 @@ const List = ({ testResults }) => testResults ?
         <table className={styles.table}>
             <thead>
                 <tr className={styles.tr}>
-                    <th className={styles.th}>Статус</th>
-                    <th className={styles.th}>Имя</th>
-                    <th className={styles.th}>Время</th>
+                    <th className={styles.th}>Status</th>
+                    <th className={styles.th}>Name</th>
+                    <th className={styles.th}>Time</th>
                 </tr>
             </thead>
             <tbody>
