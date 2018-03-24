@@ -28,10 +28,14 @@ module.exports = {
                 loader: 'babel-loader',
                 query: {
                     'presets': [
-                        'es2015',
+                        ['es2015', { "modules": false }],
                         'react',
                         'stage-0'
-                    ]
+                    ],
+                    'plugins': isProductionBuild ? [
+                        'transform-react-constant-elements',
+                        'transform-react-remove-prop-types'
+                    ] : []
                 }
             },
             {
@@ -49,12 +53,12 @@ module.exports = {
                             importLoaders: 1,
                         },
                     },
-                    isProductionBuild ? {
+                    {
                         loader: 'csso-loader',
                         options: {
                             comments: false
                         }
-                    } : {},
+                    },
                     {
                         loader: 'postcss-loader'
                     }
@@ -73,9 +77,9 @@ module.exports = {
             title: 'Test report',
             template: 'src/page-template.jade'
         }),
-        new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/),       // убираем лишние локали у momentJS
-        new WebpackShellPlugin(isProductionBuild && {
+        new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en-gb|ru/),  // убираем лишние локали у momentJS
+        new WebpackShellPlugin(isProductionBuild && {                             // удаляем файл бандла, т.к. код уже заинлайнен
             onBuildEnd: [`rm ${path.resolve(OUT_DIR, BUNDLE_FILENAME)}`]
-        }),
+        })
     ]
 };
