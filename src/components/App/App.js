@@ -27,7 +27,7 @@ const getNewVal = (stateVal, val) => {
 
 class App extends PureComponent {
     state = {
-        filter: FILTERS.ALL,
+        filter: FILTERS.FAILED,
         results: {}
     };
 

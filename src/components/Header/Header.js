@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import classNames from 'classnames';
-import { pathOr } from 'ramda';
+import { pathOr, isNil } from 'ramda';
 import moment from 'moment';
 
 import Container from '../Container/Container';
@@ -15,19 +15,33 @@ const Header = ({ results, filter, onPassedButtonClick, onFailedButtonClick }) =
         return null;
     }
 
-    const { numFailedTests, numPassedTests, startTime } = results;
-    const formatedStarttime = moment(startTime ).format('YYYY-MM-DD HH:mm');
+    const { numFailedTests, numPassedTests, startTime, gitBranchName } = results;
+    const formatedStarttime = moment(startTime ).format('DD-MM-YYYY HH:mm');
     const { start, end } = pathOr({}, ['testResults', 0, 'perfStats'], results);
     const timeSpent = start && end && (moment(end - start).utc().format('HH:mm:ss'));
 
     return <header className={styles.header}>
     <Container>
         <div className={styles.headerContent}>
-            <h1>Report</h1>
-            {startTime && <div className={styles.info}>Date: {formatedStarttime}</div>}
-            {timeSpent && <div className={styles.info}>Time spent: {timeSpent}</div>}
+            <h1 className={styles.title}>Test report</h1>
+
+            {gitBranchName && <div className={styles.info}>
+                <span className={styles.infoTitle}>Git branch:</span>
+                {gitBranchName}
+            </div>}
+
+            {startTime && <div className={styles.info}>
+                <span className={styles.infoTitle}>Date:</span>
+                {formatedStarttime}
+            </div>}
+
+            {timeSpent && <div className={styles.info}>
+                <span className={styles.infoTitle}>Time spent:</span>
+                {timeSpent}
+            </div>}
+
             <div className={styles.rightPart}>
-                <div className={styles.badgeBlock}>
+                {!isNil(numPassedTests) && <div className={styles.badgeBlock}>
                     Passed:
                     <button
                         className={classNames({
@@ -39,9 +53,9 @@ const Header = ({ results, filter, onPassedButtonClick, onFailedButtonClick }) =
                     >
                         {numPassedTests}
                     </button>
-                </div>
+                </div>}
 
-                <div className={styles.badgeBlock}>
+                {!isNil(numFailedTests) && <div className={styles.badgeBlock}>
                     Failed:
                     <button
                         className={classNames({
@@ -53,7 +67,7 @@ const Header = ({ results, filter, onPassedButtonClick, onFailedButtonClick }) =
                     >
                         {numFailedTests}
                     </button>
-                </div>
+                </div>}
             </div>
         </div>
     </Container>

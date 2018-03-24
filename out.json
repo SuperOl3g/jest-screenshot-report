@@ -1,43 +1,43 @@
 {
-    "numFailedTestSuites": 0,
-    "numFailedTests": 0,
-    "numPassedTestSuites": 1,
-    "numPassedTests": 264,
+    "numFailedTestSuites": 1,
+    "numFailedTests": 1,
+    "numPassedTestSuites": 0,
+    "numPassedTests": 263,
     "numPendingTestSuites": 0,
     "numPendingTests": 0,
     "numRuntimeErrorTestSuites": 0,
     "numTotalTestSuites": 1,
     "numTotalTests": 264,
     "snapshot": {
-        "added": 260,
+        "added": 0,
         "didUpdate": false,
         "failure": false,
-        "filesAdded": 1,
+        "filesAdded": 0,
         "filesRemoved": 0,
         "filesUnmatched": 0,
         "filesUpdated": 0,
         "matched": 0,
-        "total": 260,
+        "total": 0,
         "unchecked": 0,
         "uncheckedKeys": [],
         "unmatched": 0,
         "updated": 0
     },
-    "startTime": 1521753869009,
-    "success": true,
+    "startTime": 1521850409464,
+    "success": false,
     "testResults": [
         {
             "console": null,
-            "failureMessage": null,
-            "numFailingTests": 0,
-            "numPassingTests": 264,
+            "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mStoryshots › @tinkoff-ui/island › В колонках\u001b[39m\u001b[22m\n\n    Expected image to match or be a close match to snapshot but was 20.38151577503429% different from snapshot (118865 differing pixels).\n    \u001b[1m\u001b[31mSee diff for details:\u001b[39m\u001b[22m \u001b[31m/app/.tmp/jest/__screenshots__/__diff_output__/screenshots-test-js-storyshots-tinkoff-ui-island-в-колонках-1-diff.png\u001b[39m\n",
+            "numFailingTests": 1,
+            "numPassingTests": 263,
             "numPendingTests": 0,
             "perfStats": {
-                "end": 1521754339700,
-                "start": 1521753884735
+                "end": 1521850940136,
+                "start": 1521850424113
             },
             "snapshot": {
-                "added": 260,
+                "added": 0,
                 "fileDeleted": false,
                 "matched": 0,
                 "unchecked": 0,
@@ -51,7 +51,7 @@
                     "ancestorTitles": [
                         "Storyshots Integrity"
                     ],
-                    "duration": 89448,
+                    "duration": 91542,
                     "failureMessages": [],
                     "fullName": "Storyshots Integrity Abandoned Storyshots",
                     "location": null,
@@ -64,7 +64,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 2647,
+                    "duration": 3046,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Без параметров",
                     "location": null,
@@ -77,7 +77,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 2511,
+                    "duration": 2844,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Ограничение на количество введенных символов",
                     "location": null,
@@ -90,7 +90,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 1078,
+                    "duration": 1231,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Ограничение на количество введенных символов и добавление многоточия в конце",
                     "location": null,
@@ -103,7 +103,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 1079,
+                    "duration": 1247,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Ориентирован по правому краю",
                     "location": null,
@@ -116,7 +116,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 992,
+                    "duration": 1211,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Красный фон и белый шрифт",
                     "location": null,
@@ -129,7 +129,7 @@
                         "Storyshots",
                         "@tinkoff-ui/balloon"
                     ],
-                    "duration": 2199,
+                    "duration": 1222,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/balloon Красный фон и белый шрифт при навелении",
                     "location": null,
@@ -142,7 +142,7 @@
                         "Storyshots",
                         "@tinkoff-ui/block"
                     ],
-                    "duration": 842,
+                    "duration": 1224,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/block checkbox",
                     "location": null,
@@ -155,7 +155,7 @@
                         "Storyshots",
                         "@tinkoff-ui/block"
                     ],
-                    "duration": 2194,
+                    "duration": 1238,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/block radio",
                     "location": null,
@@ -168,7 +168,7 @@
                         "Storyshots",
                         "@tinkoff-ui/block"
                     ],
-                    "duration": 1069,
+                    "duration": 1233,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/block radio with description",
                     "location": null,
@@ -181,7 +181,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1083,
+                    "duration": 1224,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Дефолтная",
                     "location": null,
@@ -194,7 +194,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1065,
+                    "duration": 1244,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Задизейбленная",
                     "location": null,
@@ -207,7 +207,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1088,
+                    "duration": 1232,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Кнопка-ссылка",
                     "location": null,
@@ -220,7 +220,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1081,
+                    "duration": 1212,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Прозрачная с контуром",
                     "location": null,
@@ -233,7 +233,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1083,
+                    "duration": 1220,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Прямые углы",
                     "location": null,
@@ -246,7 +246,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1069,
+                    "duration": 1225,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button На всю ширину контейнера",
                     "location": null,
@@ -259,7 +259,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1084,
+                    "duration": 1235,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button Прижатая к правому краю",
                     "location": null,
@@ -272,7 +272,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 1079,
+                    "duration": 1259,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button C кастомным контентом",
                     "location": null,
@@ -285,7 +285,7 @@
                         "Storyshots",
                         "@tinkoff-ui/button"
                     ],
-                    "duration": 768,
+                    "duration": 1095,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/button C иконкой",
                     "location": null,
@@ -298,7 +298,7 @@
                         "Storyshots",
                         "@tinkoff-ui/buttonMobile"
                     ],
-                    "duration": 2189,
+                    "duration": 1382,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/buttonMobile Кнопка L",
                     "location": null,
@@ -311,7 +311,7 @@
                         "Storyshots",
                         "@tinkoff-ui/buttonMobile"
                     ],
-                    "duration": 1077,
+                    "duration": 1199,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/buttonMobile Кнопка S",
                     "location": null,
@@ -324,7 +324,7 @@
                         "Storyshots",
                         "@tinkoff-ui/buttonMobile"
                     ],
-                    "duration": 1068,
+                    "duration": 1188,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/buttonMobile Кнопка S (прозрачная — черный контур)",
                     "location": null,
@@ -337,7 +337,7 @@
                         "Storyshots",
                         "@tinkoff-ui/buttonMobile"
                     ],
-                    "duration": 1090,
+                    "duration": 1386,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/buttonMobile Кнопка S (прозрачная — светлый контур)",
                     "location": null,
@@ -350,7 +350,7 @@
                         "Storyshots",
                         "@tinkoff-ui/buttonMobile"
                     ],
-                    "duration": 1073,
+                    "duration": 1055,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/buttonMobile Кнопка L с иконкой",
                     "location": null,
@@ -363,7 +363,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 813,
+                    "duration": 1334,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Knobs",
                     "location": null,
@@ -376,7 +376,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 818,
+                    "duration": 1164,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Компактный режим",
                     "location": null,
@@ -389,7 +389,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 828,
+                    "duration": 1381,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld событие на onChange",
                     "location": null,
@@ -402,7 +402,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 779,
+                    "duration": 1359,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Список дней",
                     "location": null,
@@ -415,7 +415,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 764,
+                    "duration": 1083,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Список месяцев",
                     "location": null,
@@ -428,7 +428,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 831,
+                    "duration": 1070,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Список лет",
                     "location": null,
@@ -441,7 +441,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 1129,
+                    "duration": 1242,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Список декад",
                     "location": null,
@@ -454,7 +454,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 1104,
+                    "duration": 1557,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Ограничение view",
                     "location": null,
@@ -467,7 +467,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 826,
+                    "duration": 1548,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Ограничения выбора дат",
                     "location": null,
@@ -480,7 +480,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 791,
+                    "duration": 1400,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Выбор даты",
                     "location": null,
@@ -493,7 +493,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 1086,
+                    "duration": 1454,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Выбор промежутка",
                     "location": null,
@@ -506,7 +506,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 788,
+                    "duration": 1199,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Выбор промежутка без указания границ",
                     "location": null,
@@ -519,7 +519,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 2213,
+                    "duration": 1532,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Выбор промежутка до месяца",
                     "location": null,
@@ -532,7 +532,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendarOld"
                     ],
-                    "duration": 797,
+                    "duration": 1223,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendarOld Выбранный промежуток",
                     "location": null,
@@ -545,7 +545,7 @@
                         "Storyshots",
                         "@tinkoff-ui/card"
                     ],
-                    "duration": 847,
+                    "duration": 2838,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/card По умолчанию",
                     "location": null,
@@ -558,7 +558,7 @@
                         "Storyshots",
                         "@tinkoff-ui/cardLogo"
                     ],
-                    "duration": 1069,
+                    "duration": 1217,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/cardLogo По умолчанию",
                     "location": null,
@@ -571,7 +571,7 @@
                         "Storyshots",
                         "@tinkoff-ui/cardLogo"
                     ],
-                    "duration": 1087,
+                    "duration": 905,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/cardLogo Буква вместо лого",
                     "location": null,
@@ -584,7 +584,7 @@
                         "Storyshots",
                         "@tinkoff-ui/cardLogo"
                     ],
-                    "duration": 1080,
+                    "duration": 1786,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/cardLogo Карты для карты (географической)",
                     "location": null,
@@ -597,7 +597,7 @@
                         "Storyshots",
                         "@tinkoff-ui/cardLogo"
                     ],
-                    "duration": 1062,
+                    "duration": 1194,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/cardLogo Template (заготовка карты)",
                     "location": null,
@@ -610,7 +610,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 1077,
+                    "duration": 1278,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel По умолчанию",
                     "location": null,
@@ -623,7 +623,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 762,
+                    "duration": 1333,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel С контролами",
                     "location": null,
@@ -636,7 +636,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 764,
+                    "duration": 1005,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel Без зацикленной анимации",
                     "location": null,
@@ -649,7 +649,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 1073,
+                    "duration": 1271,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel С расстоянием м/у слайдами",
                     "location": null,
@@ -662,7 +662,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 1081,
+                    "duration": 1260,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel С кусочком соседнего слайда",
                     "location": null,
@@ -675,7 +675,7 @@
                         "Storyshots",
                         "@tinkoff-ui/carousel"
                     ],
-                    "duration": 779,
+                    "duration": 980,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/carousel AutoHeight",
                     "location": null,
@@ -688,7 +688,7 @@
                         "Storyshots",
                         "@tinkoff-ui/checkbox"
                     ],
-                    "duration": 2068,
+                    "duration": 2300,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/checkbox По умолчанию",
                     "location": null,
@@ -701,7 +701,7 @@
                         "Storyshots",
                         "@tinkoff-ui/checkbox"
                     ],
-                    "duration": 749,
+                    "duration": 1079,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/checkbox checked",
                     "location": null,
@@ -714,7 +714,7 @@
                         "Storyshots",
                         "@tinkoff-ui/checkbox"
                     ],
-                    "duration": 2182,
+                    "duration": 2300,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/checkbox disabled",
                     "location": null,
@@ -727,7 +727,7 @@
                         "Storyshots",
                         "@tinkoff-ui/circularProgress"
                     ],
-                    "duration": 1001,
+                    "duration": 1181,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/circularProgress По умолчанию",
                     "location": null,
@@ -740,7 +740,7 @@
                         "Storyshots",
                         "@tinkoff-ui/circularProgress"
                     ],
-                    "duration": 1085,
+                    "duration": 1020,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/circularProgress Черная тема",
                     "location": null,
@@ -753,7 +753,7 @@
                         "Storyshots",
                         "@tinkoff-ui/circularProgress"
                     ],
-                    "duration": 1081,
+                    "duration": 1198,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/circularProgress Cо значением",
                     "location": null,
@@ -766,7 +766,7 @@
                         "Storyshots",
                         "@tinkoff-ui/circularProgress"
                     ],
-                    "duration": 1073,
+                    "duration": 1163,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/circularProgress Кастомный контент",
                     "location": null,
@@ -779,7 +779,7 @@
                         "Storyshots",
                         "@tinkoff-ui/collapseBlock"
                     ],
-                    "duration": 937,
+                    "duration": 1283,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/collapseBlock По умолчанию",
                     "location": null,
@@ -792,7 +792,7 @@
                         "Storyshots",
                         "@tinkoff-ui/container"
                     ],
-                    "duration": 2191,
+                    "duration": 1382,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/container По умолчанию",
                     "location": null,
@@ -805,7 +805,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contentEditable"
                     ],
-                    "duration": 1086,
+                    "duration": 1180,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contentEditable По умолчанию",
                     "location": null,
@@ -818,7 +818,7 @@
                         "Storyshots",
                         "@tinkoff-ui/countBadge"
                     ],
-                    "duration": 1082,
+                    "duration": 1164,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/countBadge Отображение файла",
                     "location": null,
@@ -831,7 +831,7 @@
                         "Storyshots",
                         "@tinkoff-ui/file"
                     ],
-                    "duration": 1082,
+                    "duration": 1240,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/file Отображение файла",
                     "location": null,
@@ -844,7 +844,7 @@
                         "Storyshots",
                         "@tinkoff-ui/file"
                     ],
-                    "duration": 1079,
+                    "duration": 1235,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/file Размер: s",
                     "location": null,
@@ -857,7 +857,7 @@
                         "Storyshots",
                         "@tinkoff-ui/file"
                     ],
-                    "duration": 1074,
+                    "duration": 1230,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/file Размер: ms",
                     "location": null,
@@ -870,7 +870,7 @@
                         "Storyshots",
                         "@tinkoff-ui/fileItem"
                     ],
-                    "duration": 1077,
+                    "duration": 1364,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/fileItem По умолчанию",
                     "location": null,
@@ -883,7 +883,7 @@
                         "Storyshots",
                         "@tinkoff-ui/fileItem"
                     ],
-                    "duration": 1068,
+                    "duration": 1203,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/fileItem Открытие ссылки в новом окне",
                     "location": null,
@@ -896,7 +896,7 @@
                         "Storyshots",
                         "@tinkoff-ui/flag"
                     ],
-                    "duration": 766,
+                    "duration": 850,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/flag С параметрами",
                     "location": null,
@@ -909,7 +909,7 @@
                         "Storyshots",
                         "@tinkoff-ui/flag"
                     ],
-                    "duration": 2186,
+                    "duration": 1724,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/flag По двум/трем буквам страны",
                     "location": null,
@@ -922,7 +922,7 @@
                         "Storyshots",
                         "FormBuilder"
                     ],
-                    "duration": 1134,
+                    "duration": 1910,
                     "failureMessages": [],
                     "fullName": "Storyshots FormBuilder Пример формы",
                     "location": null,
@@ -935,7 +935,7 @@
                         "Storyshots",
                         "@tinkoff-ui/grid"
                     ],
-                    "duration": 1085,
+                    "duration": 1210,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/grid Row",
                     "location": null,
@@ -948,7 +948,7 @@
                         "Storyshots",
                         "@tinkoff-ui/grid"
                     ],
-                    "duration": 1078,
+                    "duration": 1616,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/grid Columns",
                     "location": null,
@@ -961,7 +961,7 @@
                         "Storyshots",
                         "@tinkoff-ui/group"
                     ],
-                    "duration": 1064,
+                    "duration": 1184,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/group По умолчанию",
                     "location": null,
@@ -974,7 +974,7 @@
                         "Storyshots",
                         "@tinkoff-ui/headerMobileWrapper"
                     ],
-                    "duration": 1069,
+                    "duration": 1191,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/headerMobileWrapper Обертка для шапки",
                     "location": null,
@@ -987,7 +987,7 @@
                         "Storyshots",
                         "@tinkoff-ui/icon"
                     ],
-                    "duration": 768,
+                    "duration": 940,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/icon По умолчанию",
                     "location": null,
@@ -1000,7 +1000,7 @@
                         "Storyshots",
                         "@tinkoff-ui/icon"
                     ],
-                    "duration": 2216,
+                    "duration": 2365,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/icon Иконки по группам",
                     "location": null,
@@ -1013,7 +1013,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1088,
+                    "duration": 1229,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input По умолчанию",
                     "location": null,
@@ -1026,7 +1026,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1079,
+                    "duration": 1221,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input Большой лейбл",
                     "location": null,
@@ -1039,7 +1039,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1013,
+                    "duration": 1189,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input Без лейбла",
                     "location": null,
@@ -1052,7 +1052,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1074,
+                    "duration": 1213,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input C плейхолдером",
                     "location": null,
@@ -1065,7 +1065,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1080,
+                    "duration": 1214,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input Без бордера и фона",
                     "location": null,
@@ -1078,7 +1078,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1081,
+                    "duration": 1387,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input C ошибкой",
                     "location": null,
@@ -1091,7 +1091,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1065,
+                    "duration": 1243,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input C cообщением под полем",
                     "location": null,
@@ -1104,7 +1104,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1082,
+                    "duration": 1239,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input C кастомным контентом справа",
                     "location": null,
@@ -1117,7 +1117,7 @@
                         "Storyshots",
                         "@tinkoff-ui/input"
                     ],
-                    "duration": 1072,
+                    "duration": 1252,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/input С маской",
                     "location": null,
@@ -1130,7 +1130,7 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1084,
+                    "duration": 1401,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/island По умолчанию",
                     "location": null,
@@ -1143,7 +1143,7 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1079,
+                    "duration": 1373,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/island С картинкой",
                     "location": null,
@@ -1156,7 +1156,7 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1088,
+                    "duration": 1534,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/island С контролом",
                     "location": null,
@@ -1169,7 +1169,7 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1082,
+                    "duration": 1319,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/island С контентом",
                     "location": null,
@@ -1182,7 +1182,7 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1078,
+                    "duration": 1326,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/island С кнопкой",
                     "location": null,
@@ -1195,12 +1195,14 @@
                         "Storyshots",
                         "@tinkoff-ui/island"
                     ],
-                    "duration": 1120,
-                    "failureMessages": [],
+                    "duration": 3932,
+                    "failureMessages": [
+                        "Error: Expected image to match or be a close match to snapshot but was 20.38151577503429% different from snapshot (118865 differing pixels).\n\u001b[1m\u001b[31mSee diff for details:\u001b[39m\u001b[22m \u001b[31m/app/.tmp/jest/__screenshots__/__diff_output__/screenshots-test-js-storyshots-tinkoff-ui-island-в-колонках-1-diff.png\u001b[39m\n    at /app/node_modules/@storybook/addon-storyshots/dist/test-body-image-snapshot.js:71:21\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
+                    ],
                     "fullName": "Storyshots @tinkoff-ui/island В колонках",
                     "location": null,
                     "numPassingAsserts": 0,
-                    "status": "passed",
+                    "status": "failed",
                     "title": "В колонках"
                 },
                 {
@@ -1208,7 +1210,7 @@
                         "Storyshots",
                         "@tinkoff-ui/link"
                     ],
-                    "duration": 1078,
+                    "duration": 1403,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/link Type Simple",
                     "location": null,
@@ -1221,7 +1223,7 @@
                         "Storyshots",
                         "@tinkoff-ui/link"
                     ],
-                    "duration": 1075,
+                    "duration": 1243,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/link Type Action",
                     "location": null,
@@ -1234,7 +1236,7 @@
                         "Storyshots",
                         "@tinkoff-ui/list"
                     ],
-                    "duration": 1083,
+                    "duration": 1367,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/list По умолчанию",
                     "location": null,
@@ -1247,7 +1249,7 @@
                         "Storyshots",
                         "@tinkoff-ui/list"
                     ],
-                    "duration": 1079,
+                    "duration": 1309,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/list С уменьшеным размером шрифта",
                     "location": null,
@@ -1260,7 +1262,7 @@
                         "Storyshots",
                         "@tinkoff-ui/list"
                     ],
-                    "duration": 1084,
+                    "duration": 1292,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/list С кастомными элементами внутри ",
                     "location": null,
@@ -1273,7 +1275,7 @@
                         "Storyshots",
                         "@tinkoff-ui/list"
                     ],
-                    "duration": 1083,
+                    "duration": 1361,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/list С описанием и кастомными элементами внутри ",
                     "location": null,
@@ -1286,7 +1288,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loaderProgress"
                     ],
-                    "duration": 1069,
+                    "duration": 1215,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loaderProgress Лоадер",
                     "location": null,
@@ -1299,7 +1301,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loaderRound"
                     ],
-                    "duration": 1074,
+                    "duration": 1223,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loaderRound По умолчанию",
                     "location": null,
@@ -1312,7 +1314,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loaderRound"
                     ],
-                    "duration": 1072,
+                    "duration": 1214,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loaderRound Кастомный цвет",
                     "location": null,
@@ -1325,7 +1327,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loaderRound"
                     ],
-                    "duration": 1078,
+                    "duration": 1406,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loaderRound Прозрачность",
                     "location": null,
@@ -1338,7 +1340,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loaderRound"
                     ],
-                    "duration": 1066,
+                    "duration": 1226,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loaderRound Скрываем лоадер",
                     "location": null,
@@ -1351,7 +1353,7 @@
                         "Storyshots",
                         "@tinkoff-ui/modal"
                     ],
-                    "duration": 769,
+                    "duration": 940,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/modal По умолчанию",
                     "location": null,
@@ -1364,7 +1366,7 @@
                         "Storyshots",
                         "@tinkoff-ui/modal"
                     ],
-                    "duration": 783,
+                    "duration": 907,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/modal Событие по клику close",
                     "location": null,
@@ -1377,7 +1379,7 @@
                         "Storyshots",
                         "@tinkoff-ui/money"
                     ],
-                    "duration": 1069,
+                    "duration": 1223,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/money По умолчанию",
                     "location": null,
@@ -1390,7 +1392,7 @@
                         "Storyshots",
                         "@tinkoff-ui/pie"
                     ],
-                    "duration": 1066,
+                    "duration": 1226,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/pie По умолчанию",
                     "location": null,
@@ -1403,7 +1405,7 @@
                         "Storyshots",
                         "@tinkoff-ui/popover"
                     ],
-                    "duration": 1079,
+                    "duration": 1221,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/popover По умолчанию",
                     "location": null,
@@ -1416,7 +1418,7 @@
                         "Storyshots",
                         "@tinkoff-ui/popover"
                     ],
-                    "duration": 1070,
+                    "duration": 1225,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/popover Видимый по клику",
                     "location": null,
@@ -1429,7 +1431,7 @@
                         "Storyshots",
                         "@tinkoff-ui/portal"
                     ],
-                    "duration": 868,
+                    "duration": 1289,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/portal По умолчанию",
                     "location": null,
@@ -1442,7 +1444,7 @@
                         "Storyshots",
                         "@tinkoff-ui/progressInput"
                     ],
-                    "duration": 785,
+                    "duration": 1033,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/progressInput По умолчанию",
                     "location": null,
@@ -1455,7 +1457,7 @@
                         "Storyshots",
                         "@tinkoff-ui/progressInput"
                     ],
-                    "duration": 809,
+                    "duration": 982,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/progressInput зайдизейбленная",
                     "location": null,
@@ -1468,7 +1470,7 @@
                         "Storyshots",
                         "@tinkoff-ui/progressInput"
                     ],
-                    "duration": 2296,
+                    "duration": 2372,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/progressInput нередактируемая",
                     "location": null,
@@ -1481,7 +1483,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radio"
                     ],
-                    "duration": 1091,
+                    "duration": 1216,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radio По умолчанию",
                     "location": null,
@@ -1494,7 +1496,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radio"
                     ],
-                    "duration": 1071,
+                    "duration": 1210,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radio checked",
                     "location": null,
@@ -1507,7 +1509,7 @@
                         "Storyshots",
                         "@tinkoff-ui/scrollList"
                     ],
-                    "duration": 1085,
+                    "duration": 1392,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/scrollList По умолчанию",
                     "location": null,
@@ -1520,7 +1522,7 @@
                         "Storyshots",
                         "@tinkoff-ui/scrollList"
                     ],
-                    "duration": 1083,
+                    "duration": 1254,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/scrollList Уравнивание высоты блоков",
                     "location": null,
@@ -1533,7 +1535,7 @@
                         "Storyshots",
                         "@tinkoff-ui/scrollList"
                     ],
-                    "duration": 861,
+                    "duration": 1243,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/scrollList C внутренним отступом",
                     "location": null,
@@ -1546,7 +1548,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secureInput"
                     ],
-                    "duration": 2208,
+                    "duration": 1249,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secureInput По умолчанию",
                     "location": null,
@@ -1559,7 +1561,7 @@
                         "Storyshots",
                         "@tinkoff-ui/slider"
                     ],
-                    "duration": 1079,
+                    "duration": 1216,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/slider По умолчанию",
                     "location": null,
@@ -1572,7 +1574,7 @@
                         "Storyshots",
                         "@tinkoff-ui/slider"
                     ],
-                    "duration": 1080,
+                    "duration": 1215,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/slider Range",
                     "location": null,
@@ -1585,7 +1587,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 1084,
+                    "duration": 1338,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper Дефолтная",
                     "location": null,
@@ -1598,7 +1600,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 750,
+                    "duration": 1010,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper С кнопками",
                     "location": null,
@@ -1611,7 +1613,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 766,
+                    "duration": 1045,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper Вертикальный свайп",
                     "location": null,
@@ -1624,7 +1626,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 1087,
+                    "duration": 1299,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper С ограничением",
                     "location": null,
@@ -1637,7 +1639,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 1076,
+                    "duration": 1471,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper Зацикленная",
                     "location": null,
@@ -1650,7 +1652,7 @@
                         "Storyshots",
                         "@tinkoff-ui/swiper"
                     ],
-                    "duration": 1086,
+                    "duration": 1711,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/swiper С кастомным эффектом",
                     "location": null,
@@ -1663,7 +1665,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1088,
+                    "duration": 1409,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Модификаторы",
                     "location": null,
@@ -1676,7 +1678,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1081,
+                    "duration": 1256,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Без заголовка",
                     "location": null,
@@ -1689,7 +1691,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1109,
+                    "duration": 1268,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld С заголовком",
                     "location": null,
@@ -1702,7 +1704,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1077,
+                    "duration": 1259,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld С серым заголовком",
                     "location": null,
@@ -1715,7 +1717,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1076,
+                    "duration": 1334,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld С названием",
                     "location": null,
@@ -1728,7 +1730,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1072,
+                    "duration": 1284,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Без выравнивания последней колонки",
                     "location": null,
@@ -1741,7 +1743,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1084,
+                    "duration": 1285,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Уменьшеной ширины",
                     "location": null,
@@ -1754,7 +1756,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1083,
+                    "duration": 1265,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Выравнивания первой ячейки",
                     "location": null,
@@ -1767,7 +1769,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tableOld"
                     ],
-                    "duration": 1085,
+                    "duration": 1274,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tableOld Кастомная ширина первой колонки",
                     "location": null,
@@ -1780,7 +1782,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 948,
+                    "duration": 1258,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text По умолчанию",
                     "location": null,
@@ -1793,7 +1795,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 2182,
+                    "duration": 1240,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Передаем ноду в children",
                     "location": null,
@@ -1806,7 +1808,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1064,
+                    "duration": 1451,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Передаем текст в value",
                     "location": null,
@@ -1819,7 +1821,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1108,
+                    "duration": 1205,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Uppercase",
                     "location": null,
@@ -1832,7 +1834,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1110,
+                    "duration": 1291,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Custom color",
                     "location": null,
@@ -1845,7 +1847,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1117,
+                    "duration": 1232,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text LineThrough",
                     "location": null,
@@ -1858,7 +1860,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1124,
+                    "duration": 1223,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод whitespace nowrap",
                     "location": null,
@@ -1871,7 +1873,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1130,
+                    "duration": 1264,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод whitespace pre-wrap",
                     "location": null,
@@ -1884,7 +1886,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1103,
+                    "duration": 1227,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Custom tagName",
                     "location": null,
@@ -1897,7 +1899,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1118,
+                    "duration": 1230,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод align",
                     "location": null,
@@ -1910,7 +1912,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1114,
+                    "duration": 1219,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод verticalAlign",
                     "location": null,
@@ -1923,7 +1925,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1117,
+                    "duration": 1303,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод alignMobile",
                     "location": null,
@@ -1936,7 +1938,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1100,
+                    "duration": 1515,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Мод display",
                     "location": null,
@@ -1949,7 +1951,7 @@
                         "Storyshots",
                         "@tinkoff-ui/text"
                     ],
-                    "duration": 1098,
+                    "duration": 1318,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/text Title",
                     "location": null,
@@ -1962,7 +1964,7 @@
                         "Storyshots",
                         "@tinkoff-ui/textarea"
                     ],
-                    "duration": 1107,
+                    "duration": 1362,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/textarea По умолчанию",
                     "location": null,
@@ -1975,7 +1977,7 @@
                         "Storyshots",
                         "@tinkoff-ui/textarea"
                     ],
-                    "duration": 1112,
+                    "duration": 1346,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/textarea Без лейбла",
                     "location": null,
@@ -1988,7 +1990,7 @@
                         "Storyshots",
                         "@tinkoff-ui/textarea"
                     ],
-                    "duration": 1108,
+                    "duration": 1333,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/textarea disabled",
                     "location": null,
@@ -2001,7 +2003,7 @@
                         "Storyshots",
                         "@tinkoff-ui/textarea"
                     ],
-                    "duration": 1114,
+                    "duration": 1335,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/textarea C ошибкой",
                     "location": null,
@@ -2014,7 +2016,7 @@
                         "Storyshots",
                         "@tinkoff-ui/textarea"
                     ],
-                    "duration": 1083,
+                    "duration": 1309,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/textarea C счетчиком символов",
                     "location": null,
@@ -2027,7 +2029,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tinkoffLogo"
                     ],
-                    "duration": 754,
+                    "duration": 959,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tinkoffLogo Тинькофф логотип",
                     "location": null,
@@ -2040,7 +2042,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tinkoffLogoMobileText"
                     ],
-                    "duration": 762,
+                    "duration": 987,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tinkoffLogoMobileText Тинькофф логотип",
                     "location": null,
@@ -2053,7 +2055,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 1068,
+                    "duration": 1431,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip По умолчанию",
                     "location": null,
@@ -2066,7 +2068,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 1083,
+                    "duration": 1241,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip Видимый по клику",
                     "location": null,
@@ -2079,7 +2081,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 1074,
+                    "duration": 1244,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip С задержкой ховера",
                     "location": null,
@@ -2092,7 +2094,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 1080,
+                    "duration": 1262,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip Без уголка",
                     "location": null,
@@ -2105,7 +2107,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 901,
+                    "duration": 1140,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip Кастомные стили всплывашки",
                     "location": null,
@@ -2118,7 +2120,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tip"
                     ],
-                    "duration": 2177,
+                    "duration": 1263,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tip Внутри скролящегося блока",
                     "location": null,
@@ -2131,7 +2133,7 @@
                         "Storyshots",
                         "@tinkoff-ui/toggle"
                     ],
-                    "duration": 762,
+                    "duration": 946,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/toggle По умолчанию",
                     "location": null,
@@ -2144,7 +2146,7 @@
                         "Storyshots",
                         "@tinkoff-ui/toggle"
                     ],
-                    "duration": 762,
+                    "duration": 948,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/toggle С нативным лейблом",
                     "location": null,
@@ -2157,7 +2159,7 @@
                         "Storyshots",
                         "@tinkoff-ui/toggle"
                     ],
-                    "duration": 774,
+                    "duration": 930,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/toggle Состояние загрузки",
                     "location": null,
@@ -2170,7 +2172,7 @@
                         "Storyshots",
                         "Basics"
                     ],
-                    "duration": 2379,
+                    "duration": 1436,
                     "failureMessages": [],
                     "fullName": "Storyshots Basics Цвета",
                     "location": null,
@@ -2183,7 +2185,7 @@
                         "Storyshots",
                         "Docs"
                     ],
-                    "duration": 1303,
+                    "duration": 1226,
                     "failureMessages": [],
                     "fullName": "Storyshots Docs Contributing",
                     "location": null,
@@ -2196,7 +2198,7 @@
                         "Storyshots",
                         "Docs"
                     ],
-                    "duration": 1313,
+                    "duration": 1193,
                     "failureMessages": [],
                     "fullName": "Storyshots Docs Темизация",
                     "location": null,
@@ -2209,7 +2211,7 @@
                         "Storyshots",
                         "@tinkoff-ui/action"
                     ],
-                    "duration": 755,
+                    "duration": 1391,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/action По умолчанию",
                     "location": null,
@@ -2222,7 +2224,7 @@
                         "Storyshots",
                         "@tinkoff-ui/action"
                     ],
-                    "duration": 772,
+                    "duration": 1108,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/action disabled",
                     "location": null,
@@ -2235,7 +2237,7 @@
                         "Storyshots",
                         "@tinkoff-ui/action"
                     ],
-                    "duration": 746,
+                    "duration": 1074,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/action На всю ширину контейнера",
                     "location": null,
@@ -2248,7 +2250,7 @@
                         "Storyshots",
                         "@tinkoff-ui/action"
                     ],
-                    "duration": 804,
+                    "duration": 1341,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/action В группе",
                     "location": null,
@@ -2261,7 +2263,7 @@
                         "Storyshots",
                         "@tinkoff-ui/attach"
                     ],
-                    "duration": 1076,
+                    "duration": 1274,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/attach По умолчанию",
                     "location": null,
@@ -2274,7 +2276,7 @@
                         "Storyshots",
                         "@tinkoff-ui/attach"
                     ],
-                    "duration": 1071,
+                    "duration": 1461,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/attach C ошибкой",
                     "location": null,
@@ -2287,7 +2289,7 @@
                         "Storyshots",
                         "@tinkoff-ui/attach"
                     ],
-                    "duration": 1078,
+                    "duration": 1065,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/attach C прикрепленными файлами",
                     "location": null,
@@ -2300,7 +2302,7 @@
                         "Storyshots",
                         "@tinkoff-ui/attach"
                     ],
-                    "duration": 754,
+                    "duration": 970,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/attach C возможностью загрузки только одного файла",
                     "location": null,
@@ -2313,7 +2315,7 @@
                         "Storyshots",
                         "@tinkoff-ui/breadcrumbs"
                     ],
-                    "duration": 764,
+                    "duration": 2387,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/breadcrumbs Хлебные крошки",
                     "location": null,
@@ -2326,7 +2328,7 @@
                         "Storyshots",
                         "@tinkoff-ui/breadcrumbs"
                     ],
-                    "duration": 769,
+                    "duration": 957,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/breadcrumbs На цветном фоне",
                     "location": null,
@@ -2339,7 +2341,7 @@
                         "Storyshots",
                         "@tinkoff-ui/breadcrumbs"
                     ],
-                    "duration": 772,
+                    "duration": 980,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/breadcrumbs Полная цепочка ссылок",
                     "location": null,
@@ -2352,7 +2354,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar"
                     ],
-                    "duration": 849,
+                    "duration": 1357,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar Выбор одной даты",
                     "location": null,
@@ -2365,7 +2367,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar"
                     ],
-                    "duration": 2225,
+                    "duration": 1108,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar С ограниченным диапазоном",
                     "location": null,
@@ -2378,7 +2380,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar"
                     ],
-                    "duration": 801,
+                    "duration": 1294,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar Выбор интервала",
                     "location": null,
@@ -2391,7 +2393,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1587,
+                    "duration": 1204,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Обычный день",
                     "location": null,
@@ -2404,7 +2406,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1079,
+                    "duration": 1212,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Выделенный день",
                     "location": null,
@@ -2417,7 +2419,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1069,
+                    "duration": 1208,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Начало интервала",
                     "location": null,
@@ -2430,7 +2432,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1066,
+                    "duration": 1217,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Конец интервала",
                     "location": null,
@@ -2443,7 +2445,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1064,
+                    "duration": 1226,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Подсвеченный",
                     "location": null,
@@ -2456,7 +2458,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1077,
+                    "duration": 1234,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Подсвеченный, первый",
                     "location": null,
@@ -2469,7 +2471,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1077,
+                    "duration": 1230,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Подсвеченный, последний",
                     "location": null,
@@ -2482,7 +2484,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarDay"
                     ],
-                    "duration": 1081,
+                    "duration": 1434,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarDay Задизейбленный",
                     "location": null,
@@ -2495,7 +2497,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/CalendarMonth"
                     ],
-                    "duration": 1068,
+                    "duration": 1284,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/CalendarMonth Месяц",
                     "location": null,
@@ -2508,7 +2510,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/YearSelector"
                     ],
-                    "duration": 1082,
+                    "duration": 1234,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/YearSelector По умолчанию",
                     "location": null,
@@ -2521,7 +2523,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/YearSelector"
                     ],
-                    "duration": 1092,
+                    "duration": 1230,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/YearSelector Ограниченный диапазон",
                     "location": null,
@@ -2534,7 +2536,7 @@
                         "Storyshots",
                         "@tinkoff-ui/calendar/YearSelector"
                     ],
-                    "duration": 1074,
+                    "duration": 1033,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/calendar/YearSelector Очень ограниченный диапазон",
                     "location": null,
@@ -2547,7 +2549,7 @@
                         "Storyshots",
                         "@tinkoff-ui/checkboxBlock"
                     ],
-                    "duration": 773,
+                    "duration": 976,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/checkboxBlock unchecked",
                     "location": null,
@@ -2560,7 +2562,7 @@
                         "Storyshots",
                         "@tinkoff-ui/checkboxBlock"
                     ],
-                    "duration": 761,
+                    "duration": 957,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/checkboxBlock checked",
                     "location": null,
@@ -2573,7 +2575,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenu"
                     ],
-                    "duration": 765,
+                    "duration": 960,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenu По умолчанию",
                     "location": null,
@@ -2586,7 +2588,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenu"
                     ],
-                    "duration": 2086,
+                    "duration": 1769,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenu Сгруппированные элементы",
                     "location": null,
@@ -2599,7 +2601,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1086,
+                    "duration": 1228,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld По умолчанию",
                     "location": null,
@@ -2612,7 +2614,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1081,
+                    "duration": 1379,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld Слева",
                     "location": null,
@@ -2625,7 +2627,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1062,
+                    "duration": 1346,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld По центру",
                     "location": null,
@@ -2638,7 +2640,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1072,
+                    "duration": 1362,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld Справа",
                     "location": null,
@@ -2651,7 +2653,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1079,
+                    "duration": 1334,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld Маленький размер меню и элементов списка",
                     "location": null,
@@ -2664,7 +2666,7 @@
                         "Storyshots",
                         "@tinkoff-ui/contextMenuOld"
                     ],
-                    "duration": 1087,
+                    "duration": 1216,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/contextMenuOld Без элементов списка",
                     "location": null,
@@ -2677,7 +2679,7 @@
                         "Storyshots",
                         "@tinkoff-ui/firstMenu"
                     ],
-                    "duration": 1080,
+                    "duration": 1255,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/firstMenu Неавторизованное меню",
                     "location": null,
@@ -2690,7 +2692,7 @@
                         "Storyshots",
                         "@tinkoff-ui/firstMenu"
                     ],
-                    "duration": 809,
+                    "duration": 1510,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/firstMenu Авторизованное меню",
                     "location": null,
@@ -2703,7 +2705,7 @@
                         "Storyshots",
                         "@tinkoff-ui/headerMobile"
                     ],
-                    "duration": 2190,
+                    "duration": 1065,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/headerMobile Мобильная шапка платформы",
                     "location": null,
@@ -2716,7 +2718,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputCard"
                     ],
-                    "duration": 1068,
+                    "duration": 2509,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputCard По умолчанию",
                     "location": null,
@@ -2729,7 +2731,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputCard"
                     ],
-                    "duration": 1079,
+                    "duration": 1311,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputCard C дополнительным контентом справа",
                     "location": null,
@@ -2742,7 +2744,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputCard"
                     ],
-                    "duration": 1087,
+                    "duration": 1243,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputCard mini",
                     "location": null,
@@ -2755,7 +2757,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputGroup"
                     ],
-                    "duration": 1085,
+                    "duration": 1257,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputGroup По умолчанию",
                     "location": null,
@@ -2768,7 +2770,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputGroup"
                     ],
-                    "duration": 1084,
+                    "duration": 1242,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputGroup C общим бордером",
                     "location": null,
@@ -2781,7 +2783,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputGroup"
                     ],
-                    "duration": 1082,
+                    "duration": 1277,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputGroup С дополнительным контентом справа",
                     "location": null,
@@ -2794,7 +2796,7 @@
                         "Storyshots",
                         "@tinkoff-ui/limit"
                     ],
-                    "duration": 753,
+                    "duration": 1450,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/limit По умолчанию",
                     "location": null,
@@ -2807,7 +2809,7 @@
                         "Storyshots",
                         "@tinkoff-ui/loadingButton"
                     ],
-                    "duration": 2194,
+                    "duration": 1245,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/loadingButton По умолчанию",
                     "location": null,
@@ -2820,7 +2822,7 @@
                         "Storyshots",
                         "@tinkoff-ui/menuMobile"
                     ],
-                    "duration": 1134,
+                    "duration": 1454,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/menuMobile Мобильное меню",
                     "location": null,
@@ -2833,7 +2835,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 732,
+                    "duration": 1322,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification По умолчанию",
                     "location": null,
@@ -2846,7 +2848,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 747,
+                    "duration": 933,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification Success",
                     "location": null,
@@ -2859,7 +2861,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 782,
+                    "duration": 968,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification Warning",
                     "location": null,
@@ -2872,7 +2874,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 774,
+                    "duration": 963,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification Error",
                     "location": null,
@@ -2885,7 +2887,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 750,
+                    "duration": 997,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification Confirm",
                     "location": null,
@@ -2898,7 +2900,7 @@
                         "Storyshots",
                         "@tinkoff-ui/notification"
                     ],
-                    "duration": 745,
+                    "duration": 1240,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/notification Confirm (голубой)",
                     "location": null,
@@ -2911,7 +2913,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radioBlock"
                     ],
-                    "duration": 1075,
+                    "duration": 1297,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radioBlock По умолчанию",
                     "location": null,
@@ -2924,7 +2926,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radioBlock"
                     ],
-                    "duration": 1077,
+                    "duration": 1270,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radioBlock checked",
                     "location": null,
@@ -2937,7 +2939,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radioBlock"
                     ],
-                    "duration": 1069,
+                    "duration": 1295,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radioBlock with description",
                     "location": null,
@@ -2950,7 +2952,7 @@
                         "Storyshots",
                         "@tinkoff-ui/radioGroup"
                     ],
-                    "duration": 1081,
+                    "duration": 1343,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/radioGroup По умолчанию",
                     "location": null,
@@ -2963,7 +2965,7 @@
                         "Storyshots",
                         "@tinkoff-ui/rangeInput"
                     ],
-                    "duration": 1069,
+                    "duration": 1244,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/rangeInput two input",
                     "location": null,
@@ -2976,7 +2978,7 @@
                         "Storyshots",
                         "@tinkoff-ui/rangeInput"
                     ],
-                    "duration": 1076,
+                    "duration": 1239,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/rangeInput one input",
                     "location": null,
@@ -2989,7 +2991,7 @@
                         "Storyshots",
                         "@tinkoff-ui/smsConfirmation"
                     ],
-                    "duration": 1076,
+                    "duration": 1352,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/smsConfirmation По умолчанию",
                     "location": null,
@@ -3002,7 +3004,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 1079,
+                    "duration": 1459,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu Стандартное состояние",
                     "location": null,
@@ -3015,7 +3017,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 1092,
+                    "duration": 1278,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu С заголовком",
                     "location": null,
@@ -3028,7 +3030,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 775,
+                    "duration": 1010,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu С заголовком ссылкой",
                     "location": null,
@@ -3041,7 +3043,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 2203,
+                    "duration": 995,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu С кнопкой \"еще\"",
                     "location": null,
@@ -3054,7 +3056,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 781,
+                    "duration": 970,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu Кастомные стили контейнера",
                     "location": null,
@@ -3067,7 +3069,7 @@
                         "Storyshots",
                         "@tinkoff-ui/secondMenu"
                     ],
-                    "duration": 1451,
+                    "duration": 1272,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/secondMenu Есть бэйдж около элемента",
                     "location": null,
@@ -3080,7 +3082,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tabs"
                     ],
-                    "duration": 1088,
+                    "duration": 1265,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tabs По умолчанию",
                     "location": null,
@@ -3093,7 +3095,7 @@
                         "Storyshots",
                         "@tinkoff-ui/tabs"
                     ],
-                    "duration": 1074,
+                    "duration": 1284,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/tabs Со скроллом",
                     "location": null,
@@ -3106,7 +3108,7 @@
                         "Storyshots",
                         "@tinkoff-ui/accordion"
                     ],
-                    "duration": 779,
+                    "duration": 1384,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/accordion По умолчанию",
                     "location": null,
@@ -3119,7 +3121,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 993,
+                    "duration": 1319,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar По умолчанию",
                     "location": null,
@@ -3132,7 +3134,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 765,
+                    "duration": 1023,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar Без масштабирования при наведении",
                     "location": null,
@@ -3145,7 +3147,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 2181,
+                    "duration": 1232,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar Картинка не загрузилась",
                     "location": null,
@@ -3158,7 +3160,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 784,
+                    "duration": 952,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar С иконкой",
                     "location": null,
@@ -3171,7 +3173,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 2182,
+                    "duration": 1000,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar Изменение направления",
                     "location": null,
@@ -3184,7 +3186,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 1082,
+                    "duration": 1284,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar Без направления",
                     "location": null,
@@ -3197,7 +3199,7 @@
                         "Storyshots",
                         "@tinkoff-ui/avatar"
                     ],
-                    "duration": 1066,
+                    "duration": 1238,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/avatar Без параметров",
                     "location": null,
@@ -3210,7 +3212,7 @@
                         "Storyshots",
                         "@tinkoff-ui/headerMenu"
                     ],
-                    "duration": 809,
+                    "duration": 1178,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/headerMenu Неавторизованное состояние",
                     "location": null,
@@ -3223,7 +3225,7 @@
                         "Storyshots",
                         "@tinkoff-ui/headerMenu"
                     ],
-                    "duration": 2240,
+                    "duration": 1427,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/headerMenu Авторизованное состояние",
                     "location": null,
@@ -3236,7 +3238,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputAutocomplete"
                     ],
-                    "duration": 1081,
+                    "duration": 1245,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputAutocomplete По умолчанию",
                     "location": null,
@@ -3249,7 +3251,7 @@
                         "Storyshots",
                         "@tinkoff-ui/inputAutocomplete"
                     ],
-                    "duration": 1071,
+                    "duration": 1336,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/inputAutocomplete Custom Input",
                     "location": null,
@@ -3262,7 +3264,7 @@
                         "Storyshots",
                         "@tinkoff-ui/scroll"
                     ],
-                    "duration": 1074,
+                    "duration": 1434,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/scroll По умолчанию",
                     "location": null,
@@ -3275,7 +3277,7 @@
                         "Storyshots",
                         "@tinkoff-ui/scroll"
                     ],
-                    "duration": 1082,
+                    "duration": 1358,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/scroll Custom scroll position",
                     "location": null,
@@ -3288,7 +3290,7 @@
                         "Storyshots",
                         "@tinkoff-ui/select"
                     ],
-                    "duration": 1084,
+                    "duration": 1213,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/select По умолчанию",
                     "location": null,
@@ -3301,7 +3303,7 @@
                         "Storyshots",
                         "@tinkoff-ui/select"
                     ],
-                    "duration": 793,
+                    "duration": 1283,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/select C ошибкой",
                     "location": null,
@@ -3314,7 +3316,7 @@
                         "Storyshots",
                         "@tinkoff-ui/selectItem"
                     ],
-                    "duration": 2196,
+                    "duration": 1451,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/selectItem SelectItem",
                     "location": null,
@@ -3327,7 +3329,7 @@
                         "Storyshots",
                         "@tinkoff-ui/selectItem"
                     ],
-                    "duration": 810,
+                    "duration": 1061,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/selectItem SelectItemAccount",
                     "location": null,
@@ -3340,7 +3342,7 @@
                         "Storyshots",
                         "@tinkoff-ui/selectItem"
                     ],
-                    "duration": 760,
+                    "duration": 1000,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/selectItem SelectItemAccountExternal",
                     "location": null,
@@ -3353,7 +3355,7 @@
                         "Storyshots",
                         "@tinkoff-ui/selectItem"
                     ],
-                    "duration": 822,
+                    "duration": 1538,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/selectItem SelectItemPhone",
                     "location": null,
@@ -3366,7 +3368,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 2250,
+                    "duration": 1595,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Стандартная таблица",
                     "location": null,
@@ -3379,7 +3381,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1086,
+                    "duration": 1415,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица \"Справка по операции\"",
                     "location": null,
@@ -3392,7 +3394,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1259,
+                    "duration": 4070,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица с кастомным контентом ячейки",
                     "location": null,
@@ -3405,7 +3407,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1086,
+                    "duration": 1548,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица с \"подтаблицей\"",
                     "location": null,
@@ -3418,7 +3420,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 896,
+                    "duration": 1247,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица с шапкой",
                     "location": null,
@@ -3431,7 +3433,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 2201,
+                    "duration": 1034,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица с опциями",
                     "location": null,
@@ -3444,7 +3446,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1085,
+                    "duration": 1348,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table Таблица с noHover",
                     "location": null,
@@ -3457,7 +3459,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1067,
+                    "duration": 1310,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table SuperTable без шапки",
                     "location": null,
@@ -3470,7 +3472,7 @@
                         "Storyshots",
                         "@tinkoff-ui/table"
                     ],
-                    "duration": 1080,
+                    "duration": 1290,
                     "failureMessages": [],
                     "fullName": "Storyshots @tinkoff-ui/table SuperTable c шапкой",
                     "location": null,
@@ -3484,5 +3486,6 @@
             "leaks": false
         }
     ],
-    "wasInterrupted": false
+    "wasInterrupted": false,
+    "gitBranchName": "uikit/develop"
 }

@@ -4,7 +4,17 @@
     box-shadow: rgb(221, 223, 224) 0px -1px 0px 0px inset;
 }
 
+.title {
+    margin-top: 0;
+}
+
+.infoTitle {
+    display: inline-block;
+    width: 100px;
+}
+
 .rightPart {
+    margin-top: 10px;
     display: flex;
 }
 
