@@ -1,18 +1,27 @@
 const webpack = require('webpack');
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebpackShellPlugin = require('webpack-shell-plugin');
+
+const OUT_DIR = 'lib';
+const BUNDLE_FILENAME = 'bundle.js';
+
+const isProductionBuild = process.env.NODE_ENV === 'production';
+
 
 module.exports = {
     entry: [
         './src/index.js'
     ],
     output: {
-        path: path.resolve(__dirname, 'lib'),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, OUT_DIR),
+        filename: BUNDLE_FILENAME
     },
-    mode: process.env.NODE_ENV,
-    devtool: 'cheap-module-eval-source-map',
+    mode: isProductionBuild ? 'production' : 'development',
+    devtool: !isProductionBuild && 'cheap-module-eval-source-map',
     module: {
         rules: [
+            { test: /\.jade$/, loader: 'jade-loader' },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
@@ -36,10 +45,16 @@ module.exports = {
                         options: {
                             minimize: false,
                             modules: true,
-                            localIdentName: '[name]__[local]_[hash:base64:5]',
+                            localIdentName: isProductionBuild ? '[hash:base64:5]' : '[name]__[local]_[hash:base64:5]',
                             importLoaders: 1,
                         },
                     },
+                    isProductionBuild ? {
+                        loader: 'csso-loader',
+                        options: {
+                            comments: false
+                        }
+                    } : {},
                     {
                         loader: 'postcss-loader'
                     }
@@ -52,6 +67,15 @@ module.exports = {
             'process.env': {
                 NODE_ENV: JSON.stringify(process.env.NODE_ENV),
             }
-        })
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            title: 'Test report',
+            template: 'src/page-template.jade'
+        }),
+        new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/),       // убираем лишние локали у momentJS
+        new WebpackShellPlugin(isProductionBuild && {
+            onBuildEnd: [`rm ${path.resolve(OUT_DIR, BUNDLE_FILENAME)}`]
+        }),
     ]
 };

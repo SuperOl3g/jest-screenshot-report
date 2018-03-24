@@ -9,6 +9,8 @@ import List from '../List/List';
 import 'normalize.css';
 import styles from './App.css';
 
+const REPORT_DATA_FILENAME = 'reportData.json';
+
 export const FILTERS = {
     PASSED: 'passed',
     FAILED: 'failed',
@@ -36,9 +38,9 @@ class App extends PureComponent {
     constructor(props) {
         super(props);
 
-        fetch('out.json')
+        fetch(REPORT_DATA_FILENAME)
             .then(payload => payload.json())
-            .then(results => this.setState({ results }));
+            .then(results => this.setState({ results }))
     }
 
     onFilterChange = e => this.setState({
