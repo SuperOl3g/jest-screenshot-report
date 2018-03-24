@@ -15,7 +15,7 @@ const Result = ({ ancestorTitles, title, status, duration }) => {
     })}>
         <td className={cn(styles.td, styles.td_status)}>{isPassed ? '✅' : '❌'}</td>
         <td className={styles.td}>{ancestorTitles.join(' / ') + ' / ' + title}</td>
-        <td className={styles.td}>{duration}ms</td>
+        <td className={cn(styles.td, styles.td_time)}>{duration}ms</td>
     </tr>;
 };
 
