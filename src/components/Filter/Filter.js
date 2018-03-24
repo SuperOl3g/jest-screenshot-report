@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react';
 import pt from 'prop-types';
 
-const noop = () => {};
-
 class Filter extends PureComponent {
     static propTypes = {
         value: pt.oneOfType([pt.number, pt.string]),
@@ -10,20 +8,15 @@ class Filter extends PureComponent {
         onChange: pt.func
     };
 
-    static defaultProps = {
-        onChange: noop
-    };
-
-    onChange = e => this.props.onChange(e.target.value);
-
     render() {
-        const { value, options } = this.props;
+        const { value, options, onChange } = this.props;
 
         return <div>
             Filter:
             <select
+                style={{ marginLeft: 4 }}
                 value={value}
-                onChange={this.onChange}
+                onChange={onChange}
             >
                 {options.map(val =>
                     <option value={val} key={val}>{val}</option>

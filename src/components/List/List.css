@@ -9,15 +9,16 @@
 }
 
 .tr {
-    &:nth-child(even) {
+    &:not(&_failed):nth-child(even) {
         background: rgba(0, 0, 0, .03);
     }
+
+    &_failed {
+        background: #ffbaba;
+    }
+
 }
 
 .td, .th {
     padding: 7px;
-}
-
-.td_status {
-    padding-left: 23px;
 }

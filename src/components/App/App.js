@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 
 import Header from '../Header/Header';
 import Container from '../Container/Container';
+import Checkbox from '../Checkbox/Checkbox';
 import Filter from '../Filter/Filter';
 import List from '../List/List';
 
@@ -28,7 +29,8 @@ const getNewVal = (stateVal, val) => {
 class App extends PureComponent {
     state = {
         filter: FILTERS.FAILED,
-        results: {}
+        withPreview: true,
+        results: null
     };
 
     constructor(props) {
@@ -39,8 +41,8 @@ class App extends PureComponent {
             .then(results => this.setState({ results }));
     }
 
-    onFilterChange = newValue => this.setState({
-       filter: newValue
+    onFilterChange = e => this.setState({
+       filter: e.target.value
     });
 
     onPassedButtonClick = () => this.setState({
@@ -51,29 +53,38 @@ class App extends PureComponent {
         filter: getNewVal(this.state.filter, FILTERS.FAILED)
     });
 
+    onPreviewToggle = e => this.setState({
+        withPreview: e.target.checked
+    });
+
     render() {
         const { results } = this.state;
 
-        return <div className={styles.app}>
+        return results && <div className={styles.app}>
             <Header
                 results={results}
                 filter={this.state.filter}
                 onPassedButtonClick={this.onPassedButtonClick}
                 onFailedButtonClick={this.onFailedButtonClick}
             />
-            <div style={{ marginBottom: 30 }}/>
-
             <Container>
-                <Filter
-                    value={this.state.filter}
-                    options={[
-                        FILTERS.ALL,
-                        FILTERS.PASSED,
-                        FILTERS.FAILED
-                    ]}
-                    onChange={this.onFilterChange}
-                />
-                <div style={{ marginBottom: 10 }}/>
+                <div style={{ display: 'flex', alignItems: 'center', marginTop: 30, marginBottom: 10  }}>
+                    <Filter
+                        value={this.state.filter}
+                        options={[
+                            FILTERS.ALL,
+                            FILTERS.PASSED,
+                            FILTERS.FAILED
+                        ]}
+                        onChange={this.onFilterChange}
+                    />
+                    <div style={{ marginLeft: 40 }}/>
+                    <Checkbox
+                        label="With preview"
+                        checked={this.state.withPreview}
+                        onChange={this.onPreviewToggle}
+                    />
+                </div>
 
                 <List
                     filter={this.state.filter}

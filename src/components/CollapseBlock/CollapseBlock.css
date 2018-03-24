@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.childrenBlock {
+    &_animating {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    &_animating&_align {
+        &_top {
+            top: 0;
+        }
+
+        &_center {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &_bottom {
+            bottom: 0;
+        }
+    }
+}
