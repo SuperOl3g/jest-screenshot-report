@@ -30,7 +30,7 @@ const getNewVal = (stateVal, val) => {
 
 class App extends PureComponent {
     state = {
-        filter: FILTERS.FAILED,
+        filter: FILTERS.ALL,
         withPreview: true,
         results: null
     };
@@ -40,7 +40,10 @@ class App extends PureComponent {
 
         fetch(REPORT_DATA_FILENAME)
             .then(payload => payload.json())
-            .then(results => this.setState({ results }))
+            .then(results => this.setState({
+                results,
+                ...(results.numFailedTests ? { filter: FILTERS.FAILED } : {})
+            }))
     }
 
     onFilterChange = e => this.setState({
